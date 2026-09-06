@@ -109,4 +109,4 @@ VLAN 70 -> Student Lab
 VLAN 80 -> IT Department
 ```
 
-![VLAN Trunk Verification](screenshots/vlan-trunk-verification.png)
+![Vlan Trunk Verification](screenshots/valn-trunk-verification.png)

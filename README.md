@@ -4,7 +4,7 @@
 
 This project is a simulated **enterprise university campus network** built and configured in **Cisco Packet Tracer**.
 
-The goal of the project was to create a functional campus network that connects multiple university departments across several buildings while keeping each department logically separated through VLANs.
+The goal of the project was to create a functional campus network that connects multiple university departments across several buildings while keeping each department logically separated through VLANs. The university campus contains three buildings and eight departmental networks.
 
 The network also provides:
 
@@ -22,10 +22,6 @@ The project provided hands-on experience with Cisco IOS configuration, routing a
 ![Enterprise University Campus Network](screenshots/campus-network-topology.png)
 
 ---
-
-## Network Topology
-
-The university campus contains three buildings and eight departmental networks.
 
 ### Building A
 
@@ -52,6 +48,25 @@ The IT Department also contains internal:
 The university network connects through a Cisco 2911 Main Campus Router to a simulated Cloud Router, which provides access to an external Email Server.
 ---
 
+## VLAN and IP Addressing Plan
+
+Each university department was assigned its own VLAN and `/24` IPv4 subnet.
+
+| VLAN | Department | Network | Default Gateway |
+|------|------------|---------|-----------------|
+| 10 | Administration | 192.168.1.0/24 | 192.168.1.1 |
+| 20 | Human Resources | 192.168.2.0/24 | 192.168.2.1 |
+| 30 | Finance | 192.168.3.0/24 | 192.168.3.1 |
+| 40 | Business | 192.168.4.0/24 | 192.168.4.1 |
+| 50 | E&C | 192.168.5.0/24 | 192.168.5.1 |
+| 60 | A&D | 192.168.6.0/24 | 192.168.6.1 |
+| 70 | Student Lab | 192.168.7.0/24 | 192.168.7.1 |
+| 80 | IT Department | 192.168.8.0/24 | 192.168.8.1 |
+
+Using separate VLANs creates individual Layer 2 broadcast domains for each department.
+
+---
+
 ## Technologies and Concepts Implemented
 
 This project includes:
@@ -74,25 +89,6 @@ This project includes:
 - Routing Tables
 - ICMP Connectivity Testing
 - Network Troubleshooting
-
----
-
-## VLAN and IP Addressing Plan
-
-Each university department was assigned its own VLAN and `/24` IPv4 subnet.
-
-| VLAN | Department | Network | Default Gateway |
-|------|------------|---------|-----------------|
-| 10 | Administration | 192.168.1.0/24 | 192.168.1.1 |
-| 20 | Human Resources | 192.168.2.0/24 | 192.168.2.1 |
-| 30 | Finance | 192.168.3.0/24 | 192.168.3.1 |
-| 40 | Business | 192.168.4.0/24 | 192.168.4.1 |
-| 50 | E&C | 192.168.5.0/24 | 192.168.5.1 |
-| 60 | A&D | 192.168.6.0/24 | 192.168.6.1 |
-| 70 | Student Lab | 192.168.7.0/24 | 192.168.7.1 |
-| 80 | IT Department | 192.168.8.0/24 | 192.168.8.1 |
-
-Using separate VLANs creates individual Layer 2 broadcast domains for each department.
 
 ---
 

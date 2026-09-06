@@ -17,6 +17,10 @@ The network also provides:
 
 The project provided hands-on experience with Cisco IOS configuration, routing and switching, subnetting, DHCP, VLANs, 802.1Q trunking, and network troubleshooting.
 
+### Final Network Topology
+
+![Enterprise University Campus Network](screenshots/campus-network-topology.png)
+
 ---
 
 ## Network Topology
@@ -46,11 +50,6 @@ The IT Department also contains internal:
 - FTP Server
 
 The university network connects through a Cisco 2911 Main Campus Router to a simulated Cloud Router, which provides access to an external Email Server.
-
-### Final Network Topology
-
-![Enterprise University Campus Network](screenshots/campus-network-topology.png)
-
 ---
 
 ## Technologies and Concepts Implemented

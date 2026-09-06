@@ -98,8 +98,6 @@ Eight VLANs were configured to logically separate university departments.
 
 The campus switch assigns each departmental connection to its corresponding access VLAN.
 
-Example:
-
 ```text
 VLAN 10 -> Administration
 VLAN 20 -> Human Resources
@@ -109,3 +107,4 @@ VLAN 50 -> E&C
 VLAN 60 -> A&D
 VLAN 70 -> Student Lab
 VLAN 80 -> IT Department
+(screenshots/vlan-trunk-verification.png)

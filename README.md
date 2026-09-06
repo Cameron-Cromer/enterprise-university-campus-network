@@ -114,7 +114,7 @@ VLAN 80 -> IT Department
 ---
 
 ## End-to-End Connectivity Testing
-pc0 (PC in ADMIN subnet, Building A) pinging email server in cloud and vice versa:
+pc0 (PC in ADMIN subnet, Building A, IP:192.168.1.2) pinging email server in cloud(IP:20.0.0.2) and vice versa:
 
   **pc0 to Email Server:**
   

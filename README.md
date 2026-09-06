@@ -83,8 +83,10 @@ This project includes:
 - DHCP
 - IPv4 Addressing
 - Subnetting
+
 **- RIPv2 Dynamic Routing**
 ![Main Router Ripv2](screenshots/main-router-ripv2.png)
+
 - WAN Connectivity
 - Serial Point-to-Point Networking
 - Routing Tables

@@ -107,4 +107,5 @@ VLAN 50 -> E&C
 VLAN 60 -> A&D
 VLAN 70 -> Student Lab
 VLAN 80 -> IT Department
+
 (screenshots/vlan-trunk-verification.png)

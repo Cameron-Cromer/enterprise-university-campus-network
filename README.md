@@ -88,8 +88,7 @@ This project includes:
 - Routing Tables
 - ICMP Connectivity Testing
 - Network Troubleshooting
-- - RIPv2 Dynamic Routing (See below)
-
+-  RIPv2 Dynamic Routing (See below)
 ![Main Router Ripv2](screenshots/main-router-ripv2.png)
 ---
 
@@ -111,3 +110,20 @@ VLAN 80 -> IT Department
 ```
 
 ![Vlan Trunk Verification](screenshots/vlan-trunk-verification.png)
+---
+
+## End-to-End Connectivity Testing
+pc0 (PC in ADMIN subnet, Building A) pinging email server in cloud and vice versa:
+  **pc0 to Email Server:**
+![pc0 to Email Server](screenshots/pc0toemailserver.png)
+
+  **Email Server to pc0**
+![Email Server to pc0](screenshots/emailservertopc0.png)
+
+---
+## Routing Verification
+**Main Router Routing Table**
+![Main Router Routing Table](screenshots/main-router-routing-table.png)
+
+**Cloud Router Routing Table**
+![Cloud Router Routing Table](screenshots/cloud-router-routing-table.png)

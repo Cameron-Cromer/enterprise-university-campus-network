@@ -118,13 +118,13 @@ pc0 (PC in ADMIN subnet, Building A, IP: 192.168.1.2) pinging email server in cl
 
   **pc0 to Email Server:**
   
-![pc0 to Email Server](screenshots/pc0toemailserver.png)
+![pc0 to Email Server](screenshots/pc0-to-email-server.png)
 
 (25% packet loss is just the first ping timing out while ARP information was being learned on packet tracer)
 
   **Email Server to pc0**
   
-![Email Server to pc0](screenshots/emailservertopc0.png)
+![Email Server to pc0](screenshots/email-server-to-pc0.png)
 
 FTP Server (IT Department subnet, Building C, IP: 192.168.8.1) pinging email server in cloud(IP: 20.0.0.2) and vice versa:
 

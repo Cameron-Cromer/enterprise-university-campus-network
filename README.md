@@ -49,7 +49,7 @@ The university network connects through a Cisco 2911 Main Campus Router to a sim
 
 ### Final Network Topology
 
-![Enterprise University Campus Network](screenshots/topology.png)
+![Enterprise University Campus Network](screenshots/campus-network-topology.png)
 
 ---
 

@@ -126,7 +126,7 @@ pc0 (PC in ADMIN subnet, Building A, IP: 192.168.1.2) pinging email server in cl
   
 ![Email Server to pc0](screenshots/emailservertopc0.png)
 
-pc (PC in ADMIN subnet, Building A, IP: 192.168.1.2) pinging email server in cloud(IP: 20.0.0.2) and vice versa:
+FTP Server (IT Department subnet, Building C, IP: 192.168.8.1) pinging email server in cloud(IP: 20.0.0.2) and vice versa:
 
   **FTP Server to Email Server:**
   

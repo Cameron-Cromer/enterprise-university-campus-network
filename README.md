@@ -83,7 +83,8 @@ This project includes:
 - DHCP
 - IPv4 Addressing
 - Subnetting
-- RIPv2 Dynamic Routing
+**- RIPv2 Dynamic Routing**
+![Main Router Ripv2](screenshots/main-router-ripv2.png)
 - WAN Connectivity
 - Serial Point-to-Point Networking
 - Routing Tables
@@ -109,4 +110,4 @@ VLAN 70 -> Student Lab
 VLAN 80 -> IT Department
 ```
 
-![Vlan Trunk Verification](screenshots/valn-trunk-verification.png)
+![Vlan Trunk Verification](screenshots/vlan-trunk-verification.png)

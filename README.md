@@ -1,5 +1,9 @@
 # Enterprise University Campus Network
 
+## Network Topology
+![Enterprise University Campus Network](screenshots/campus-network-topology.png)
+---
+
 ## Overview
 
 This project is a simulated **enterprise university campus network** built and configured in **Cisco Packet Tracer**.
@@ -16,10 +20,6 @@ The network also provides:
 - External email server connectivity
 
 The project provided hands-on experience with Cisco IOS configuration, routing and switching, subnetting, DHCP, VLANs, 802.1Q trunking, and network troubleshooting.
-
-### Final Network Topology
-
-![Enterprise University Campus Network](screenshots/campus-network-topology.png)
 
 ---
 
@@ -119,6 +119,8 @@ pc0 (PC in ADMIN subnet, Building A, IP:192.168.1.2) pinging email server in clo
   **pc0 to Email Server:**
   
 ![pc0 to Email Server](screenshots/pc0toemailserver.png)
+
+(25% packet loss is just the first ping timing out while ARP information was being learned on packet tracer)
 
   **Email Server to pc0**
   

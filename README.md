@@ -120,7 +120,6 @@ pc0 (PC in ADMIN subnet, Building A, IP: 192.168.1.2) pinging email server in cl
   
 ![pc0 to Email Server](screenshots/pc0-to-email-server.png)
 
-(25% packet loss is just the first ping timing out while ARP information was being learned on packet tracer)
 
   **Email Server to pc0**
   
